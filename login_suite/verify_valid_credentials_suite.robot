@@ -4,7 +4,7 @@
 Resource    ../pages/login_page.resource
 Resource    ../pages/main_page.resource
 
-Library     DataDriver      file=../test_data/OpenEMRData.xlsx      sheet_name=VerifyValidCredentialsTemplate
+Library     DataDriver      file=../test_data/phpData.xlsx      sheet_name=VerifyValidCredentialsTemplate
 Library    SeleniumLibrary
 
 Test Setup      Launch Browser
